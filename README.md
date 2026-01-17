@@ -1,12 +1,14 @@
-# React + TypeScript + Vite
+# Revelio
 
-This template provides a minimal setup to get React working in Vite with HMR.
+Chrome extension UI built with Vite + React + TypeScript.
 
-Currently, two official plugins are available:
+## Commands
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `pnpm dev`
+- `pnpm build`
+- `pnpm preview`
 
-## React Compiler
+## Extension files
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `public/manifest.json` is copied to `dist/manifest.json` on build.
+- `public/icons/` is copied to `dist/icons/` on build.
